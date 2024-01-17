@@ -1,0 +1,76 @@
+{
+{
+    "config": {
+      "bindings": [
+        {
+          "authLevel": "function",
+          "methods": [
+            "post"
+          ],
+          "name": "request",
+          "type": "httpTrigger"
+        }
+      ],
+      "configurationSource": "attributes",
+      "disabled": false,
+      "entryPoint": "EFS.TeamManagementAPI.Functions.RateReckonerFunction.UpdateRateReckonerRepeatDestination",
+      "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.1.1",
+      "scriptFile": "../bin/EFS.TeamManagementAPI.dll"
+    },
+    "configHref": "https://efs-teammanagement-api-dev.azurewebsites.net/admin/vfs/home/site/wwwroot/UpdateRateReckonerRepeatDestination/function.json",
+    "files": null,
+    "functionAppId": null,
+    "href": "https://efs-teammanagement-api-dev.azurewebsites.net/admin/functions/UpdateRateReckonerRepeatDestination",
+    "id": "/subscriptions/459cf95f-3296-4090-bc1d-28ccd25b0257/resourceGroups/DEV/providers/Microsoft.Web/sites/EFS-Teammanagement-API-Dev/functions/UpdateRateReckonerRepeatDestination",
+    "invokeUrlTemplate": "https://efs-teammanagement-api-dev.azurewebsites.net/api/updateratereckonerrepeatdestination",
+    "isDisabled": false,
+    "kind": null,
+    "language": "DotNetAssembly",
+    "location": "Australia East",
+    "name": "EFS-Teammanagement-API-Dev/UpdateRateReckonerRepeatDestination",
+    "resourceGroup": "DEV",
+    "scriptHref": "https://efs-teammanagement-api-dev.azurewebsites.net/admin/vfs/home/site/wwwroot/bin/EFS.TeamManagementAPI.dll",
+    "scriptRootPathHref": "https://efs-teammanagement-api-dev.azurewebsites.net/admin/vfs/home/site/wwwroot/UpdateRateReckonerRepeatDestination/",
+    "secretsFileHref": null,
+    "testData": "",
+    "testDataHref": "https://efs-teammanagement-api-dev.azurewebsites.net/admin/vfs/tmp/FunctionsData/UpdateRateReckonerRepeatDestination.dat",
+    "type": "Microsoft.Web/sites/functions"
+  },
+  {
+    "config": {
+      "bindings": [
+        {
+          "authLevel": "function",
+          "methods": [
+            "post"
+          ],
+          "name": "request",
+          "type": "httpTrigger"
+        }
+      ],
+      "configurationSource": "attributes",
+      "disabled": false,
+      "entryPoint": "EFS.TeamManagementAPI.Functions.UserContractFunction.UpdateUserContract",
+      "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.1.1",
+      "scriptFile": "../bin/EFS.TeamManagementAPI.dll"
+    },
+    "configHref": "https://efs-teammanagement-api-dev.azurewebsites.net/admin/vfs/home/site/wwwroot/UpdateUserContract/function.json",
+    "files": null,
+    "functionAppId": null,
+    "href": "https://efs-teammanagement-api-dev.azurewebsites.net/admin/functions/UpdateUserContract",
+    "id": "/subscriptions/459cf95f-3296-4090-bc1d-28ccd25b0257/resourceGroups/DEV/providers/Microsoft.Web/sites/EFS-Teammanagement-API-Dev/functions/UpdateUserContract",
+    "invokeUrlTemplate": "https://efs-teammanagement-api-dev.azurewebsites.net/api/updateusercontract",
+    "isDisabled": false,
+    "kind": null,
+    "language": "DotNetAssembly",
+    "location": "Australia East",
+    "name": "EFS-Teammanagement-API-Dev/UpdateUserContract",
+    "resourceGroup": "DEV",
+    "scriptHref": "https://efs-teammanagement-api-dev.azurewebsites.net/admin/vfs/home/site/wwwroot/bin/EFS.TeamManagementAPI.dll",
+    "scriptRootPathHref": "https://efs-teammanagement-api-dev.azurewebsites.net/admin/vfs/home/site/wwwroot/UpdateUserContract/",
+    "secretsFileHref": null,
+    "testData": "",
+    "testDataHref": "https://efs-teammanagement-api-dev.azurewebsites.net/admin/vfs/tmp/FunctionsData/UpdateUserContract.dat",
+    "type": "Microsoft.Web/sites/functions"
+  }
+  }
